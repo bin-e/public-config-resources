@@ -4,7 +4,7 @@
 
 ``` gradle
 buildscript {
-    ext.buildScriptRootUrl = 'https://raw.githubusercontent.com/jeongph/public-config-resources/main/gradle'
+    ext.buildScriptRootUrl = 'https://raw.githubusercontent.com/jeongph/public-config-resources/gradle'
     apply from: "$buildScriptRootUrl/variables.gradle"
     
     repositories {
