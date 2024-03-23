@@ -1,6 +1,18 @@
 # public-config-resources
 
-## Gradle import
+## gradle import (public-resources) 
+
+``` gradle 
+https://raw.githubusercontent.com/jeongph/public-resources/gradle/{gradle_version}/spring-boot/{spring_version}/{file_name}
+```
+
+``` gradle 
+// e.g. 
+https://raw.githubusercontent.com/jeongph/public-resources/gradle/8.6/spring-boot/3.2.4/querydsl.gradle
+```
+
+
+## build.gardle
 
 ``` gradle
 buildscript {
