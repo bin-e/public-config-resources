@@ -1,0 +1,5 @@
+dependencies {
+    /* Lombok in Test */
+    testCompileOnly 'org.projectlombok:lombok'
+    testAnnotationProcessor 'org.projectlombok:lombok'
+}
